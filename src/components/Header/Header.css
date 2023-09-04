@@ -1,0 +1,93 @@
+.fundo {
+    height: 80vh;
+    width: 100vw;
+    background-color: #1f1d1e;
+    background-image: url(./headerImg.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; /* Added to establish stacking context */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(240deg, #ffffff00 0%, #1f1d1e 70%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha o conteúdo à esquerda */
+    justify-content: center;
+  
+  }
+  
+  .logo {
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+   
+ 
+  }
+  
+  .text-container {
+    align-items: end;
+    text-align: center;
+    margin-left: 400px;
+    color: white;
+  }
+
+  .Button_Whats {
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    background-color: #CDAA7B;
+    border-radius: 0px 0px 0px 0px;
+    padding: 24px 60px 24px 60px;
+    color: inherit;
+    text-decoration: inherit;
+    transition: ease-in 0.3s;
+  }
+
+  .Button_Whats:hover {
+        background-color: #fff;
+        color: black;
+   }
+  
+  h1 {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Adjust spacing */
+  }
+  
+  p {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    margin-bottom: 2rem;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .fundo {
+      height: 80vh;
+      width: 100vw;
+      background-color: #1f1d1e;
+      background-image: url(./headerImg.png);
+      background-position: center right;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative; /* Added to establish stacking context */
+    }
+
+    .overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+
+    .text-container {
+     
+    }
+  
+   
+  }
