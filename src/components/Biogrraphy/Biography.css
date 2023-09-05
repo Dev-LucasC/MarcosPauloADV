@@ -1,3 +1,4 @@
+/* Estilos padrão para telas maiores (desktop) */
 .container_biography {
   display: grid;
   grid-gap: 15%;
@@ -9,14 +10,14 @@
   margin: 5% auto;
 }
 
-.container_foto img{
+.container_foto img {
   width: 320px;
 }
 
 .container_text h1 {
-    font-family: Source Sans\3, sans-serif;
-    font-size: 32px;
-    margin-bottom: 4rem;
+  font-family: Source Sans\3, sans-serif;
+  font-size: 32px;
+  margin-bottom: 4rem;
 }
 
 .container_text h3 {
@@ -25,4 +26,30 @@
   letter-spacing: 0.6px;
   line-height: 1.6;
   color: #4a4a4a;
+}
+
+/* Estilos para telas menores (dispositivos móveis) */
+@media screen and (max-width: 768px) {
+  .container_biography {
+    grid-template-columns: 100%; /* Empilha as colunas verticalmente */
+    grid-gap: 5%; /* Espaçamento menor entre elementos */
+    width: 90%; /* Redefine a largura para ocupar mais da largura da tela */
+    margin: 5% auto; /* Mantém a margem no topo e na parte inferior */
+    text-align: center; /* Centraliza o texto e a imagem */
+  }
+
+  .container_foto img {
+    width: 200px; /* Redefine o tamanho da imagem para dispositivos móveis */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
+
+  .container_text h1 {
+    font-size: 24px; /* Redefine o tamanho da fonte para dispositivos móveis */
+    margin-bottom: 2rem; /* Redefine a margem inferior */
+  }
+
+  .container_text h3 {
+    font-size: 18px; /* Redefine o tamanho da fonte para dispositivos móveis */
+    line-height: 1.4; /* Ajusta a altura da linha para melhor legibilidade */
+  }
 }

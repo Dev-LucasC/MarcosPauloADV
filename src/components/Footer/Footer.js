@@ -1,21 +1,29 @@
-import React from 'react'
-import "./Footer.css"
+import React from 'react';
+import './Footer.css';
+import Logo from './logo.png'
 
 const Footer = () => {
   return (
-    <section className='footer'>
-        <div className='foot-box'>
-            <div>
+    <footer className='footer'>
+      <div className='footer-contact'>
+        <img src={Logo} alt='Logo' className='footer-logo' />
+        <p>Entre em contato:</p>
+        <p>Email: contato@example.com</p>
+        <p>Telefone: (123) 456-7890</p>
+        <hr className='footer-line' />
+      </div>
+      <div className='footer-developer'>
+        <h4>Desenvolvido por:</h4>
+        <a
+          href='https://www.linkedin.com/in/lucas-desenvolvedor'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Lucas Desenvolvedor
+        </a>
+      </div>
+    </footer>
+  );
+};
 
-            </div>
-            <div>
-                
-            </div>
-            <h4>Desenvolvido por: </h4>
-            <a href='www.linkedin.com\lucas-desenvolvedor' target='_blank'>link</a>
-        </div>
-    </section>
-  )
-}
-
-export default Footer
+export default Footer;
