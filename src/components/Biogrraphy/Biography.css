@@ -6,8 +6,8 @@
   grid-template-columns: 30% 55%;
   width: 70%;
   align-items: center;
-  background-color: #f9f9f9;
-  margin: 5% auto;
+  background-color: #e6e8e3;
+  margin: 2% auto;
 }
 
 .container_foto img {
@@ -28,13 +28,15 @@
   color: #4a4a4a;
 }
 
+
+
 /* Estilos para telas menores (dispositivos móveis) */
 @media screen and (max-width: 768px) {
   .container_biography {
     grid-template-columns: 100%; /* Empilha as colunas verticalmente */
     grid-gap: 5%; /* Espaçamento menor entre elementos */
     width: 90%; /* Redefine a largura para ocupar mais da largura da tela */
-    margin: 5% auto; /* Mantém a margem no topo e na parte inferior */
+    margin: 13% auto; /* Mantém a margem no topo e na parte inferior */
     text-align: center; /* Centraliza o texto e a imagem */
   }
 

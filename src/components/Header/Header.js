@@ -8,9 +8,7 @@ const Header = () => {
       <div className="overlay">
         <div className="text-container">
         <img src={Logo} alt="Logo" className="logo" />
-          <h1>OLÁ</h1>
-          <p>Seu texto aqui</p>
-          <a href="#" target="_self" className="Button_Whats">ENTRE EM CONTATO AGORA</a>
+          <a href="https://api.whatsapp.com/send/?phone=47991528913&text&type=phone_number&app_absent=0" target="_blank" className="Button_Whats">ENTRE EM CONTATO AGORA</a>
         </div>
       </div>
     </section>

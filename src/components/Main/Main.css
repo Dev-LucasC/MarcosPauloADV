@@ -1,6 +1,6 @@
 /* Estilos padrão para telas maiores (desktop) */
-main h1 {
-  margin-top: 2rem;
+.titulo  {
+  margin-top: 3rem;
   color: #13273E;
   font-size: 44px;
   font-style: normal;
@@ -13,8 +13,8 @@ main h1 {
   margin: 0 auto;
   margin-center: 0;
   border-width: 2px;
+  margin-bottom: 2rem;
 }
-
 .Main {
   display: flex;
   align-items: center;
@@ -50,11 +50,21 @@ main h1 {
 
 .elemento2 {
   border-style: solid;
-  border-width: 0px 1px 0px 0px;
+  border-width: 0px 1px 1px 0px;
   border-color: #E1E1E1;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   padding: 50px 30px 35px 28px;
   background-color: #F9F9F9;
+}
+
+.elemento1 h4,
+.elemento2 h4 {
+  letter-spacing: 0.3px; /* Define o espaçamento entre as letras */
+}
+
+.elemento1,
+.elemento2 {
+  min-height: 200px; /* Define a altura mínima dos elementos */
 }
 
 /* Estilos para telas menores (dispositivos móveis) */
