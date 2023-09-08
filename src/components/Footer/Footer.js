@@ -15,7 +15,7 @@ const Footer = () => {
       <div className='footer-developer'>
         <h4>Desenvolvido por:</h4>
         <a
-          href='https://www.linkedin.com/in/lucas-desenvolvedor'
+          href='https://www.linkedin.com/in/dev-lucasconceicao/'
           target='_blank'
           rel='noopener noreferrer'
         >
