@@ -46,7 +46,7 @@ const Main = () => {
 
             </h4>
 
-            <h1></h1>
+        
           </div>
         </div>
       </section>
