@@ -14,7 +14,7 @@ const Biography = () => {
           <img src={Foto} />
         </div>
         <div className="container_text">
-          <h1>Biografia</h1>
+          <h1>OBJETIVO</h1>
           <h3>
             Natural de Balneário Camboriú - SC, cursou direito e se tornou bacharel pela Universidade do Vale do Itajaí - UNIVALI. É advogado pela OAB/SC e atende todo o território nacional. Seu maior obejtivo é contribuir para uma sociedade mais justa e com os direitos garantidos.
           </h3>

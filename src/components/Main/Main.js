@@ -8,7 +8,7 @@ import Foto4 from "./imgs/DIREITO DE FAMILIA.png"
 const Main = () => {
   return (
     <main>
-      <h1 className="titulo">Áreas de Atuações</h1>
+      <h1 className="titulo">Áreas de Atuação</h1>
       <div className="elementor-divider">
           <span className="elementor-divider-separator"></span>
       </div>
