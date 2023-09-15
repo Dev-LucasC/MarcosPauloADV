@@ -20,7 +20,6 @@ const Biography = () => {
           </h3>
         </div>
       </main>
-      <h1>  teste </h1>
     </section>
   );
 };
