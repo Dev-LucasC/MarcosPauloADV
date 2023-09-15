@@ -22,10 +22,10 @@ const Main = () => {
             </h4>
           </div>
           <div className="elemento2">
-            <img src={Foto2} />
-            <h3>DIREITO TRIBUTÁRIO</h3>
+          <img src={Foto4} />
+            <h3>DIREITO DA FAMÍLIA</h3>
             <h4>
-            Envolve questões fiscais, incluindo planejamento tributário, auditorias e resolução de litígios relacionados a impostos.
+            Concentra-se em assuntos familiares, como divórcio, guarda de filhos, pensão alimentícia, adoção e paternidade.
 
             </h4>
           </div>
@@ -39,10 +39,10 @@ const Main = () => {
             </h4>
           </div>
           <div  className="elemento2">
-            <img src={Foto4} />
-            <h3>DIREITO DA FAMÍLIA</h3>
+          <img src={Foto2} />
+            <h3>DIREITO TRIBUTÁRIO</h3>
             <h4>
-            Concentra-se em assuntos familiares, como divórcio, guarda de filhos, pensão alimentícia, adoção e paternidade.
+            Envolve questões fiscais, incluindo planejamento tributário, auditorias e resolução de litígios relacionados a impostos.
 
             </h4>
           </div>
