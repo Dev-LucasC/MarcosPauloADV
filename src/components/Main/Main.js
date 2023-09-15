@@ -1,9 +1,9 @@
 import React from "react";
 import "./Main.css";
-import Foto1 from "./imgs/divorce-law-icon.png"
-import Foto2 from "./imgs/Coperate-law-icon.png"
-import Foto3 from "./imgs/child-support-icon.png"
-import Foto4 from "./imgs/Family-law-icon.png"
+import Foto1 from "./imgs/DIREITO CIVIL.png"
+import Foto2 from "./imgs/DIREITO TRIBUTARIO.png"
+import Foto3 from "./imgs/DIREITO PREVIDENCIARIO.png"
+import Foto4 from "./imgs/DIREITO DE FAMILIA.png"
 
 const Main = () => {
   return (

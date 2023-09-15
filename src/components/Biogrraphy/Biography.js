@@ -16,12 +16,7 @@ const Biography = () => {
         <div className="container_text">
           <h1>Biografia</h1>
           <h3>
-            Mono Velkoz desde novo, meu sonho era ser o melhor do meu bairrro.
-            Mas havia um pequeno problema, um inimigo. um inimgo chamado
-            "Ansast", muitos diziam que ele superava minhas habilidades no
-            calculo do Qzinho, mas nao me deixei abalar, voltei mais forte e
-            potente com um incrivel Malzapenes e debulhei com a lux nojenta
-            dele, esse sou eu. Doutor Chicomalts
+            Natural de Balneário Camboriú - SC, cursou direito e se tornou bacharel pela Universidade do Vale do Itajaí - UNIVALI. É advogado pela OAB/SC e atende todo o território nacional. Seu maior obejtivo é contribuir para uma sociedade mais justa e com os direitos garantidos.
           </h3>
         </div>
       </main>
