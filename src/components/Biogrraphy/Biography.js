@@ -1,11 +1,11 @@
 import React from "react";
 import "./Biography.css";
-import Foto from "./velkoz-2.png";
+import Foto from "./Foto para site.png";
 
 const Biography = () => {
   return (
     <section>
-       <h1 className="titulo">Sobre Mim</h1>
+       <h1 className="titulo">SOBRE MIM</h1>
       <div className="elementor-divider">
           <span className="elementor-divider-separator"></span>
       </div>

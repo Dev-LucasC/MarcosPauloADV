@@ -18,16 +18,15 @@ const Main = () => {
            <img src={Foto1}/>
             <h3>DIREITO CIVIL</h3>
             <h4>
-              Ajudamos você a resolver questões relacionadas a contratos,
-              propriedade, danos e responsabilidade civil.
+            Envolve as leis e regulamentações que governam as relações e direitos entre indivíduos e entidades privadas, abrangendo áreas como contratos, propriedade, responsabilidade civil e questões familiares.
             </h4>
           </div>
           <div className="elemento2">
             <img src={Foto2} />
             <h3>DIREITO TRIBUTÁRIO</h3>
             <h4>
-              Ajudamos você a lidar com questões tributárias, como impostos,
-              dívidas fiscais e multas.
+            Envolve questões fiscais, incluindo planejamento tributário, auditorias e resolução de litígios relacionados a impostos.
+
             </h4>
           </div>
         </div>
@@ -36,16 +35,15 @@ const Main = () => {
             <img src={Foto3}/>
             <h3>DIREITO PREVIDÊNCIÁRIO</h3>
             <h4>
-              Ajudamos você a lidar com questões relacionadas à previdência
-              social, como aposentadoria, pensões e benefícios.
+            Lida com benefícios da seguridade social, como aposentadoria, pensões por invalidez e auxílio-doença, além de representação em disputas com a Previdência Social.
             </h4>
           </div>
           <div  className="elemento2">
             <img src={Foto4} />
             <h3>DIREITO DA FAMÍLIA</h3>
             <h4>
-              Ajudamos você a lidar com questões relacionadas à família, como
-              divórcio, guarda de crianças, pensão alimentícia e adoção.
+            Concentra-se em assuntos familiares, como divórcio, guarda de filhos, pensão alimentícia, adoção e paternidade.
+
             </h4>
           </div>
         </div>

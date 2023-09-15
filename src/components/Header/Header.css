@@ -1,33 +1,21 @@
 .fundo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 70vh;
   width: 100vw;
   background-color: #1f1d1e;
-  background-image: url(./headerImg.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.01)), url(./headerImg.png);
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
 }
-  
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(240deg, #ffffff00 0%, #1f1d1e 70%);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
+
 
   
   .logo {
-    width: 800px; /* Adjust the width as needed */
+    width: 900px; /* Adjust the width as needed */
     height: auto;
-   
- 
   }
   
   .text-container {
@@ -36,8 +24,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 400px;
-    color: white;
   }
 
   .Button_Whats {
@@ -45,21 +31,20 @@
     font-size: 26px;
     font-weight: 600;
     line-height: 30px;
-    background-color: #bec3bc;
-    border-radius: 0px 0px 0px 0px;
-    padding: 24px 30px 24px 30px;
+    background-color: #AC8C6C;
+    border-radius: 2rem;
+    padding: 18px 30px 18px 30px;
     color: inherit;
     text-decoration: inherit;
     transition: ease-in 0.3s;
-    margin-top: 4rem;
+    margin-top: 6rem;
     text-align: center;
-    margin-left: 10rem;
-    color: black;
+    color: white;
   }
 
   .Button_Whats:hover {
-        background-color: #fff;
-        color: black;
+        background-color: white;
+        color: #AC8C6C;
    }
   
   .text-container h1 {
@@ -74,13 +59,18 @@
   
 
   @media screen and (max-width: 768px) {
+
+    .fundo {
+      height: 60vh;
+    }
+
     .text-container {
       margin:auto; /* Redefine a margem para centralizar */
       text-align: center;
     }
   
     .logo {
-      width: 300px; /* Ajusta o tamanho do logo para dispositivos móveis */
+      width: 360px; /* Ajusta o tamanho do logo para dispositivos móveis */
     }
   
     .Button_Whats {
