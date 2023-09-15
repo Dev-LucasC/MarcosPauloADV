@@ -31,6 +31,12 @@ const Footer = () => {
         </div>
       </div>
       <hr className="footer-line" />
+      <div className="footer-developer">
+        Desenvolvido por:{"  "}
+        <a href="https://www.linkedin.com/in/dev-lucasconceicao/" target="_blank" rel="noopener noreferrer">
+          Lucas Da Conceição
+        </a>
+      </div>
     </footer>
   );
 };
