@@ -18,8 +18,8 @@ function App() {
          rel="noopener noreferrer" 
          style={{
            position: 'fixed',
-           bottom: '60px',
-           right: '50px',
+           bottom: '30px',
+           right: '30px',
          }}>
         <img src={whatsappIcon} alt="WhatsApp" width="50" height="50"/>
       </a>
