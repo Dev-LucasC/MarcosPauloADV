@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="footer-contact">
           <p>Entre em contato:</p>
           <p>
-            Email:{" "}
+            E-mail:{" "}
             <a href="mailto:contato@example.com">contato@marcospauloadv.com.br</a>
           </p>
           <p>
